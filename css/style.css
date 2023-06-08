@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.logo {
+    max-width: auto;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+.header {
+    text-align: center;
+    border-style: double;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px rgb(0, 0, 0);
+    padding: 1px;
+    margin: 30px;
+
+}
+
+.list {
+    margin: 10px;
+    list-style-type: "->   ";
+    text-align: left;
+}
+
+.list__second {
+    margin: 10px;
+    list-style-type: "*   ";
+    text-align: left;
+}
+
+.pricelist {
+    visibility: hidden;
+    font-size: 0%;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.location__list {
+    padding: 20px;
+    margin: 10px;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
