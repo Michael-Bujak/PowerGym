@@ -7,6 +7,6 @@ let buttonName = document.querySelector(".js-buttonName")
 changeButtonName.addEventListener("click", () => {
     pricelist.classList.toggle("pricelist");
 
-    changeButtonName.innerText = pricelist.classList.contains("pricelist") ? "Kliknij by zobaczyć cennik" : "Ukryj cennik";
+    changeButtonName.innerText = pricelist.classList.contains("pricelist") ? "Zobacz cennik" : "Ukryj cennik";
 
 });
